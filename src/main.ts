@@ -7,12 +7,9 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const config = new DocumentBuilder()
     .setTitle('Vega Books Store')
-    .setDescription(`
-      <div style="text-align: center;">
-        <b>Projet système réparti</b>
-        <p>informatique niveau IV</p>
-      </div>
-    `)
+    .setDescription(
+      '<center><b>Projet system repartis</b></center>'
+    )
     .setVersion('2.3')
     .addTag('Vega')
     .build();
