@@ -9,6 +9,7 @@ async function bootstrap() {
     .setTitle('Vega Books Store')
     .setDescription(
       '<center><b>Projet system repartis</b></center>'
+      '<center><b>Sera mise a jours</b></center>'
     )
     .setVersion('2.3')
     .addTag('Vega')
